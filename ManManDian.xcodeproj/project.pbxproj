@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		745FE4C51912895B0061CC76 /* dianCajViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 745FE4C41912895B0061CC76 /* dianCajViewController.m */; };
+		74CDCE901910D56F00ACE092 /* scrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CDCE8F1910D56F00ACE092 /* scrollViewController.m */; };
 		74CE7BBE190556640081F98E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CE7BBD190556640081F98E /* Foundation.framework */; };
 		74CE7BC0190556640081F98E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CE7BBF190556640081F98E /* CoreGraphics.framework */; };
 		74CE7BC2190556640081F98E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CE7BC1190556640081F98E /* UIKit.framework */; };
@@ -22,6 +24,13 @@
 		74CE7BDF190556640081F98E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CE7BC3190556640081F98E /* CoreData.framework */; };
 		74CE7BE7190556640081F98E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74CE7BE5190556640081F98E /* InfoPlist.strings */; };
 		74CE7BE9190556640081F98E /* ManManDianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE7BE8190556640081F98E /* ManManDianTests.m */; };
+		74CE7BF5190556A60081F98E /* MMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE7BF3190556A60081F98E /* MMMainViewController.m */; };
+		74CE7BF6190556A60081F98E /* MMMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74CE7BF4190556A60081F98E /* MMMainViewController.xib */; };
+		74FDA5F0190FE23C004E6EC1 /* dish1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74FDA5EB190FE23C004E6EC1 /* dish1.jpg */; };
+		74FDA5F1190FE23C004E6EC1 /* dish2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74FDA5EC190FE23C004E6EC1 /* dish2.jpg */; };
+		74FDA5F2190FE23C004E6EC1 /* dish3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74FDA5ED190FE23C004E6EC1 /* dish3.jpg */; };
+		74FDA5F3190FE23C004E6EC1 /* dish4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74FDA5EE190FE23C004E6EC1 /* dish4.jpg */; };
+		74FDA5F4190FE23C004E6EC1 /* dish5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74FDA5EF190FE23C004E6EC1 /* dish5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		745FE4C31912895B0061CC76 /* dianCajViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dianCajViewController.h; sourceTree = "<group>"; };
+		745FE4C41912895B0061CC76 /* dianCajViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dianCajViewController.m; sourceTree = "<group>"; };
+		74CDCE8E1910D56F00ACE092 /* scrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scrollViewController.h; sourceTree = "<group>"; };
+		74CDCE8F1910D56F00ACE092 /* scrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scrollViewController.m; sourceTree = "<group>"; };
 		74CE7BBA190556640081F98E /* ManManDian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManManDian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74CE7BBD190556640081F98E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		74CE7BBF190556640081F98E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +66,14 @@
 		74CE7BE4190556640081F98E /* ManManDianTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ManManDianTests-Info.plist"; sourceTree = "<group>"; };
 		74CE7BE6190556640081F98E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		74CE7BE8190556640081F98E /* ManManDianTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManManDianTests.m; sourceTree = "<group>"; };
+		74CE7BF2190556A60081F98E /* MMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMMainViewController.h; path = ManManDian/MMMainViewController.h; sourceTree = "<group>"; };
+		74CE7BF3190556A60081F98E /* MMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMMainViewController.m; path = ManManDian/MMMainViewController.m; sourceTree = "<group>"; };
+		74CE7BF4190556A60081F98E /* MMMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MMMainViewController.xib; path = ManManDian/MMMainViewController.xib; sourceTree = "<group>"; };
+		74FDA5EB190FE23C004E6EC1 /* dish1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dish1.jpg; path = ../../../Downloads/dish1.jpg; sourceTree = "<group>"; };
+		74FDA5EC190FE23C004E6EC1 /* dish2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dish2.jpg; path = ../../../Downloads/dish2.jpg; sourceTree = "<group>"; };
+		74FDA5ED190FE23C004E6EC1 /* dish3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dish3.jpg; path = ../../../Downloads/dish3.jpg; sourceTree = "<group>"; };
+		74FDA5EE190FE23C004E6EC1 /* dish4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dish4.jpg; path = ../../../Downloads/dish4.jpg; sourceTree = "<group>"; };
+		74FDA5EF190FE23C004E6EC1 /* dish5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dish5.jpg; path = ../../../Downloads/dish5.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +102,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		745FE4C2191286370061CC76 /* DianCan */ = {
+			isa = PBXGroup;
+			children = (
+				745FE4C31912895B0061CC76 /* dianCajViewController.h */,
+				745FE4C41912895B0061CC76 /* dianCajViewController.m */,
+			);
+			name = DianCan;
+			sourceTree = "<group>";
+		};
 		74CE7BB1190556640081F98E = {
 			isa = PBXGroup;
 			children = (
+				74FDA5EB190FE23C004E6EC1 /* dish1.jpg */,
+				74FDA5EC190FE23C004E6EC1 /* dish2.jpg */,
+				74FDA5ED190FE23C004E6EC1 /* dish3.jpg */,
+				74FDA5EE190FE23C004E6EC1 /* dish4.jpg */,
+				74FDA5EF190FE23C004E6EC1 /* dish5.jpg */,
+				74CE7BF7190556DA0081F98E /* ShouYe */,
+				745FE4C2191286370061CC76 /* DianCan */,
 				74CE7BC5190556640081F98E /* ManManDian */,
 				74CE7BE2190556640081F98E /* ManManDianTests */,
 				74CE7BBC190556640081F98E /* Frameworks */,
@@ -151,6 +188,18 @@
 				74CE7BE5190556640081F98E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74CE7BF7190556DA0081F98E /* ShouYe */ = {
+			isa = PBXGroup;
+			children = (
+				74CE7BF2190556A60081F98E /* MMMainViewController.h */,
+				74CE7BF3190556A60081F98E /* MMMainViewController.m */,
+				74CE7BF4190556A60081F98E /* MMMainViewController.xib */,
+				74CDCE8E1910D56F00ACE092 /* scrollViewController.h */,
+				74CDCE8F1910D56F00ACE092 /* scrollViewController.m */,
+			);
+			name = ShouYe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +278,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				74CE7BCA190556640081F98E /* InfoPlist.strings in Resources */,
+				74FDA5F2190FE23C004E6EC1 /* dish3.jpg in Resources */,
+				74FDA5F0190FE23C004E6EC1 /* dish1.jpg in Resources */,
+				74FDA5F1190FE23C004E6EC1 /* dish2.jpg in Resources */,
+				74CE7BF6190556A60081F98E /* MMMainViewController.xib in Resources */,
+				74FDA5F4190FE23C004E6EC1 /* dish5.jpg in Resources */,
+				74FDA5F3190FE23C004E6EC1 /* dish4.jpg in Resources */,
 				74CE7BD5190556640081F98E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +306,9 @@
 				74CE7BD0190556640081F98E /* AppDelegate.m in Sources */,
 				74CE7BD3190556640081F98E /* ManManDian.xcdatamodeld in Sources */,
 				74CE7BCC190556640081F98E /* main.m in Sources */,
+				74CE7BF5190556A60081F98E /* MMMainViewController.m in Sources */,
+				74CDCE901910D56F00ACE092 /* scrollViewController.m in Sources */,
+				745FE4C51912895B0061CC76 /* dianCajViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -356,7 +414,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -447,6 +505,7 @@
 				74CE7BEE190556640081F98E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74CE7BEF190556640081F98E /* Build configuration list for PBXNativeTarget "ManManDianTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +514,7 @@
 				74CE7BF1190556640081F98E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
